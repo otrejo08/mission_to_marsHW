@@ -1,0 +1,135 @@
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+  
+  /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+  body {
+    background-image: url(https://ak6.picdn.net/shutterstock/videos/8028916/thumb/7.jpg);
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-family: "Georgia", Times, serif;
+    color: white; 
+  }
+  
+  h2 {
+    font-size: 25px;
+    font-family: "Georgia", Times, serif;
+    color : #ffffff;
+  }
+  
+  
+  h3 {
+    font-size: 20px;
+    font-family: "Georgia", Times, serif;
+    color : #ff0038;
+  }
+  
+  p {
+    color : #ffffff;
+  }
+  
+  
+  
+  table {
+      font-family: "Georgia", Times, serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+  
+  td, th {
+      border: 1px solid #ddd;
+      padding: 8px;
+  }
+  
+  tr {background-color: #f2f2f2;}
+  
+  tr:hover {background-color: #ddd;}
+  
+  .jumbotron {
+      text-align: center; 
+      background-image: url(https://www.ordnancesurvey.co.uk/shop/media/wysiwyg/productpages/shutterstock_266242625_banner.jpg); 
+      background-size:cover;
+      color: #ffffff;
+  }
+  
+  #mars_red:hover {
+      color: #ff0038;
+      text-shadow: 2px 2px 8px #ffffff;
+  
+  }
+  
+  
+  .panel-body {
+      background-color: rgba(255,255,255,0.2);
+      border: none;
+  }
+  
+  
+  .panel-body:hover {
+      background-color : rgba(100,0,22,0.4);
+  }
+  
+  .panel {	background-color: transparent;}
+  
+  .panel-default {	background-color: transparent;}
+  
+  .row {	background-color: transparent;}
+  
+  .col-md-12 {	background-color: transparent;}
+  
+  
+  .img-fluid {
+      max-width: 100%;
+      height: auto;
+  }
+  
+  
+  
+  #description {
+      padding: 20px;
+      margin-right: 10px;
+      margin-left: 10px;
+      background-color:white;
+  }
+  
+  
+  .thumbnail a img {
+      padding: 1px;
+      margin-left: 1px;
+      margin-right: 1px;
+      column-gap: 1px; 
+  }
+  
+  #page-content {
+      margin-left: 20px;
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    
+  
+  .img-fluid {
+      max-width: 80%;
+      height: auto;
+  }
+  }
